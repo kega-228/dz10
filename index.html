@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Робота з формами, програмування форм</title>
+
+    <style>
+        .hidden {
+            display: none;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        table, th, td {
+            border-collapse: collapse;
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+
+        .error-message {
+            color: red;
+            font-size: 0.9em;
+        }
+
+        input {
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input.error, input.error:focus {
+            border-color: red;
+            outline: none;
+        }
+        input.valid, input.valid:focus {
+            border-color: green;
+            outline: none;
+        }
+
+        input[type="text"], input[type="email"] {
+            padding: 6px;
+            box-sizing: border-box;
+        }
+        button {
+            padding: 6px 12px;
+            margin: 4px;
+        }
+        select {
+            margin: 4px;
+            padding: 6px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<h1>Робота з формами, програмування форм</h1>
+
+<button id="add-item">Додати контакт</button>
+<div id="add-form-container"></div>
+<div id="contacts-container">
+
+</div>
+
+
+<script src="index.js"></script>
+</body>
+</html>
